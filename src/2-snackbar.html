@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Snackbar</title>
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/2-snackbar.css">
 </head>
 
 <body>
@@ -16,6 +17,26 @@
       <h1 class="main-title">
         Snackbar
       </h1>
+      <form class="form">
+        <label class="label-form">
+          Delay (ms)
+          <input class="input-form" type="number" name="delay" required />
+        </label>
+
+        <fieldset class="fieldset">
+          <legend>State</legend>
+          <label class="label-fieldset">
+            <input class="input-fieldset" type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label class="label-fieldset">
+            <input class="input-fieldset" type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+      </form>
 
     </div>
   </main>
