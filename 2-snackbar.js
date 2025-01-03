@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */import{i as s}from"./assets/vendor-BbbuE1sJ.js";const t=document.querySelector(".form");t.addEventListener("submit",l=>{l.preventDefault(),new Promise((e,r)=>{setTimeout(()=>{t.elements.state.value==="fulfilled"?e(`✅ Fulfilled promise in ${t.elements.delay.value}ms`):r(`❌ Rejected promise in ${t.elements.delay.value}ms`)},t.elements.delay.value)}).then(e=>s.success({title:"Ok",message:e})).catch(e=>s.error({title:"Error",message:e}))});
+//# sourceMappingURL=2-snackbar.js.map
